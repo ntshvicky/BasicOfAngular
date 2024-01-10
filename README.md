@@ -18,9 +18,14 @@
 > ng generate module admin --routing
 * --routing will create route files for both modules
 
-4. create home component in both modules
+4. create home component with header & footer component in both modules and call header/footer
 > ng generate component public/home
 > ng generate component admin/home
+> ng generate component public/header
+> ng generate component public/footer
+> ng generate component admin/header
+> ng generate component admin/footer
+
 
 5. create pipes 
 > ng generate pipe pipes/capitalize
